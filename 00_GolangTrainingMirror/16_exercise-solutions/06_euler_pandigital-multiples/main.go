@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	greatest := max(1, 11, 111, 1111)
+	greatest := max(1, 2, 3, 4, 5, 6, 7, 8, 9)
 	fmt.Println(greatest)
 }
 
