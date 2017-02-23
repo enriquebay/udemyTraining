@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	myGreeting := map[int]string{
+		0: "Good morning!",
+		1: "Bonjour!",
+		2: "Dias!",
+		3: "Buongiorno",
+	}
+	for key, val := range myGreeting {
+		fmt.Println(key, " - ", val)
+	}
+
+}
